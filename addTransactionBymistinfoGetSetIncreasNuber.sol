@@ -8,11 +8,11 @@ contract MyContract {
         myNumber = 3;
     }
 
-    function getCreator() public view returns(address) {
+    function getCreator() constant returns(address) {
         return creator;
     }
 
-    function getMyNumber() public view returns(uint256) {
+    function getMyNumber() constant returns(uint256) {
         return myNumber;
     }
 
